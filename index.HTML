@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rup*Star</title>
+	<link rel="stylesheet" type="text/css" href="Star.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="navbar">
+			<img src="play.png" class="logo" height="50px" width="100px">
+			<nav>
+				<ul id="menulist">
+					<li><a href="">PlayStation Home</a></li>
+					<li><a href="">Game controller</a></li>
+					<li><a href="">More Game</a></li>
+					<li><a href="">Other</a></li>
+				</ul>
+			</nav>
+			<img src="123.png" class="manu-icon" onclick="togglemenu()">
+		</div>
+		<div class="row">
+			<div class="col-1">
+				<h2>PS4 v2<br>dual shote 2</h2>
+				<h3>wierless remot controller for ps4</h3>
+				<p>(compatible/generic)</p>
+				<h4>$500.45</h4>
+				<button>Buy Now<img src="arrow.png" height="px" width="px"></button>
+				
+			</div>
+			<div class="col-2">
+				<img src="PngItem_1171756.png" class="controler" height="400px" width="450px">	
+				<div class="color-box"></div>
+				</div>
+				<div class="add-btn">
+					<img src="icons8-cart-64 (2).png">
+					<p><small>Add to Cart</small></p>
+				</div>
+		</div>
+	</div>
+ <div class="social-links">
+ 	<img src="ins.png">
+ 	<img src="pin.png">
+ 	<img src="tui.png">
+ 	<img src="you.png">
+ 	
+ </div>
+		
+	<script type="text/javascript">
+		
+		var menulist = document.getElementById("menulist");
+
+		menulist.style.maxHeight = "0px";
+
+		function togglemenu() {
+			if(menulist.style.maxHeight == "0px")
+			{
+                  menulist.style.maxHeight = "130px";
+			}
+			else{
+				menulist.style.maxHeight = "0px";
+			}
+		}
+	</script>
+    
+</body>
+</html>
